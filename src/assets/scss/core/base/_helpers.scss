@@ -141,6 +141,14 @@ img.has-shadow {
     @include divider(after);
 }
 
+.has-bottom-divider_4 {
+    @include divider(after);
+	&::after {
+		height: 3px;
+		background-color: get-color(secondary, 3);
+	}
+}
+
 .invert-color {
 
 	.has-top-divider {

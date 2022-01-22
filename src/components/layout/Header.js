@@ -112,13 +112,13 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <a href="https://docs.titano.finance">FAQ’s</a>
+                      <a href="https://docs.eris.finance">FAQ’s</a>
                     </li>
                     <li>
                       <a href="https://discord.com/invite/xxdS792B7q">Discord</a>
                     </li>
                     <li>
-                      <a href="https://t.me/titano_finance">Telegram</a>
+                      <a href="https://t.me/eris_finance">Telegram</a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -126,7 +126,9 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm button-animation-float" onClick={closeMenu}>Sign up</Link>
+                        <a className="button button-primary button-wide-mobile button-sm button-animation-float" href="https://app.eris.finance/">
+                          Explore DApp
+                        </a>
                       </li>
                     </ul>}
                 </div>

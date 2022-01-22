@@ -1,23 +1,17 @@
 .testimonial {
-
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: #6e8c9933;
+		//get-color(dark, 2);
 	}
 }
 
 .testimonial-item-content {
     position: relative;
+}
 
-    &::before {
-        content: '';
-        display: block;
-        width: 24px;
-        height: 18px;
-        margin-top: 12px;
-        margin-bottom: 16px;
-        background-image: inline-svg('<svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M0 13.481c0-2.34.611-4.761 1.833-7.263C3.056 3.716 4.733 1.643 6.865 0L11 2.689C9.726 4.382 8.777 6.093 8.152 7.824c-.624 1.73-.936 3.578-.936 5.545V18H0v-4.519zm13 0c0-2.34.611-4.761 1.833-7.263 1.223-2.502 2.9-4.575 5.032-6.218L24 2.689c-1.274 1.693-2.223 3.404-2.848 5.135-.624 1.73-.936 3.578-.936 5.545V18H13v-4.519z" fill="' + get-color(primary, 1) + '" fill-rule="nonzero"/></svg>');
-        background-repeat: no-repeat;
-    }		
+.testimonial-tiles-item-image {
+	display: inline-flex;
+	padding: 5%;
 }
 
 .testimonial-item-footer {
@@ -25,7 +19,6 @@
     padding-top: 20px;
 
     &.has-top-divider {
-
         &::before {
             background: get-color(dark, 3);
         }
@@ -43,4 +36,64 @@
             color: get-color(secondary, 2);
         }
 	}
+}
+
+.logo-tiles-item {
+    float: left;
+    overflow: hidden;
+    height: 180px;
+    border-color: #e7e7e7;
+    width: calc((100%/2) - 1rem;
+}
+
+.logo-tiles-item-figure {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo-tiles-item-img {
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.logo-tiles-item-figure img {
+    opacity: 1;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration:.3s;
+	transition-property:transform;
+}
+
+.logo-tiles-item-figure:hover img {
+    opacity: 1;
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.2s;
+}
+
+.logo-tiles-item-figure:active img,
+.logo-tiles-item-figure:focus img,
+.logo-tiles-item-figure:hover img {
+	transform:scale(1.1);
+}
+
+
+@include media( '>large' ) {
+    .logo-tiles-item {
+        width: calc((100%/4) - 1rem;
+    }
 }
