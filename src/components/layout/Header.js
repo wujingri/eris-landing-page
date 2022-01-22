@@ -126,7 +126,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <a className="button button-primary button-wide-mobile button-sm button-animation-float" href="https://app.eris.finance/">
+                        <a className="button button-primary button-wide-mobile button-sm button-animation-float" href="https://eris-token.web.app/">
                           Explore DApp
                         </a>
                       </li>

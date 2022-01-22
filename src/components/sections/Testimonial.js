@@ -154,7 +154,7 @@ const Testimonial = ({
                     height={120} />                  
               </figure>
             </a>
-            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="800" href="https://solidity.finance/audits/Titano/" target="_blank">
+            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="800" href="https://solidity.finance/audits/eris/" target="_blank">
               <figure className="logo-tiles-item-figure tiles-item-animation-grow">
                 <Image
                     src={require('./../../assets/images/frame-4.png')}
@@ -162,7 +162,7 @@ const Testimonial = ({
                     height={120} />                  
               </figure>
             </a>
-            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="200" href="https://finance.yahoo.com/news/titano-launches-defis-first-automatic-170900951.html" target="_blank">
+            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="200" href="https://finance.yahoo.com/news/eris-launches-defis-first-automatic-170900951.html" target="_blank">
               <figure className="logo-tiles-item-figure tiles-item-animation-grow">
                 <Image
                     src={require('./../../assets/images/frame-5.png')}
@@ -170,7 +170,7 @@ const Testimonial = ({
                     height={120} />                  
               </figure>
             </a>
-            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="400" href="https://news.yahoo.com/titano-launches-defis-first-automatic-170900951.html" target="_blank">
+            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="400" href="https://news.yahoo.com/eris-launches-defis-first-automatic-170900951.html" target="_blank">
               <figure className="logo-tiles-item-figure tiles-item-animation-grow">
                 <Image
                     src={require('./../../assets/images/frame-6.png')}
@@ -178,7 +178,7 @@ const Testimonial = ({
                     height={120} />                  
               </figure>
             </a>
-            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="600" href="https://www.marketwatch.com/press-release/titano-launches-defis-first-automatic-fixed-apy-2021-12-17?tesla=y" target="_blank">
+            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="600" href="https://www.marketwatch.com/press-release/eris-launches-defis-first-automatic-fixed-apy-2021-12-17?tesla=y" target="_blank">
               <figure className="logo-tiles-item-figure tiles-item-animation-grow">
                 <Image
                     src={require('./../../assets/images/frame-7.png')}
@@ -186,7 +186,7 @@ const Testimonial = ({
                     height={120} />                  
               </figure>
             </a>
-            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="800" href="https://www.benzinga.com/pressreleases/21/12/g24674921/titano-launches-defis-first-automatic-fixed-apy" target="_blank">
+            <a className="logo-tiles-item reveal-from-left" data-reveal-delay="800" href="https://www.benzinga.com/pressreleases/21/12/g24674921/eris-launches-defis-first-automatic-fixed-apy" target="_blank">
               <figure className="logo-tiles-item-figure tiles-item-animation-grow">
                 <Image
                     src={require('./../../assets/images/frame-8.png')}

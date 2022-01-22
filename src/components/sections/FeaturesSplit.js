@@ -103,7 +103,7 @@ const FeaturesSplit = ({
                   <li>No One Loses Their Initial Deposit</li>
                   <li>Even if you don’t win, keep all of your money!</li>
                 </ul>
-                <Button tag="a" color="secondary" style="mt-32" wideMobile href="https://app.eris.finance/" target="_blank">
+                <Button tag="a" color="secondary" style="mt-32" wideMobile href="https://eris-token.web.app/" target="_blank">
                    Comming Soon ->
                 </Button>
               </div>
@@ -128,7 +128,7 @@ const FeaturesSplit = ({
                 </div>
                 
                 <p>Earnings are calculated in a scenario where the RFV sustains the rebase reward for 365 days. </p>
-                <Button tag="a" color="primary" style="animation-float" wideMobile href="https://app.eris.finance/" target="_blank">
+                <Button tag="a" color="primary" style="animation-float" wideMobile href="https://eris-token.web.app/" target="_blank">
                    Starting Earning Now >
                 </Button>
               </div>

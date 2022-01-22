@@ -116,7 +116,7 @@ const Hero = ({
                                     portfolio in your wallet, fast.
                             </p>
 
-                            <Button tag="a" color="primary" style="animation-float mt-32" wideMobile href="https://app.titano.finance/" target="_blank">
+                            <Button tag="a" color="primary" style="animation-float mt-32" wideMobile href="https://eris-token.web.app/" target="_blank">
                                 Explore DApp
                             </Button>
                         </div>
